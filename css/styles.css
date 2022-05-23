@@ -1,0 +1,235 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {  
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* Headings
+------------------------------------------------------------------------------- */
+
+.big-heading {
+    font-family: "Montserrat"; 
+    font-size: 3.5rem;  
+    font-weight: 900;
+    line-height: 1.5;  
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers -------------------------------------------------------------------- */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections --------------------------------------------------------------------- */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Title Section ----------------------------------------------------------------- */
+
+.title-section .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Navbar ------------------------------------------------------------------------- */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 1.125rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+/*Download Buttons
+----------------------------------------------------------------------------------*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image
+-------------------------------------------------------------------------------------*/
+
+.relative-div-for-absolute-positioned-z-index-image {
+    position: relative;
+}
+
+.iphone-dog-image {
+    right: 30%;
+    position: absolute;
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+@media (max-width: 1075px) {
+    .iphone-dog-image {
+        margin-left: 5rem;
+        position: static;
+    }
+}
+
+@media (max-width: 1028px) {
+    .iphone-dog-image {
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+    }
+    .title-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 853px) and (min-width: 768px) {
+    .iphone-dog-image {
+        position: static;
+        transform: rotate(0);
+        margin: auto auto auto 5rem;
+    }
+    .title-section {
+        text-align: center;
+    }
+}
+
+/* Features Section
+------------------------------------------------------------------------------------- */
+
+.features-section {
+    position: relative;
+    z-index: 1;
+}
+
+.features-title {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section
+------------------------------------------------------------------------------------- */
+
+.testimonials-section {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    margin: 1.25rem;
+    width: 10%;
+}
+
+/* Press Section
+------------------------------------------------------------------------------------- */
+
+.press-section {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    margin: 1.25rem 1.25rem 3.125rem;
+    width: 15%;
+}
+
+/* Pricing Section
+------------------------------------------------------------------------------------- */
+
+.pricing-section {
+    padding: 6.25rem;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+.pricing-header-title {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.sign-up-btn {
+    margin-top: 2.5rem;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CTA Section
+---------------------------------------------------------------------------------------- */
+
+.cta-header {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0 15%;
+}
+
+/* Footer Section
+---------------------------------------------------------------------------------------- */
+
+.footer-icon {
+    color: black;
+    margin: 0 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.social-link {
+    text-decoration: none;
+}
